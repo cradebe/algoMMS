@@ -19,7 +19,6 @@ def find_number(number_list: list, target: int) -> int:
     number_list.sort()
     list_min = 0
     list_max = len(number_list) - 1
-    middle = 0
 
     try:
         target = int(target)
